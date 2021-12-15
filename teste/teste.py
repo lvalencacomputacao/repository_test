@@ -26,6 +26,8 @@ def takecommand():
         r.energy_threshold = 4000
         audio = r.listen(source)
 
+        print("AAA")
+
     try:
         print('Recognising...')
         query = r.recognize_google(audio, language='pt-br')
