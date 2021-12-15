@@ -28,11 +28,8 @@ def takecommand():
 
     try:
         print('Recognising...')
-        query = r.recognize_google(audio, language='en-in')
+        query = r.recognize_google(audio, language='pt-br')
         print('User Said : ' , query)
-
-        a = int(query)
-        print(a+5)
 
     except Exception as e:
         print('exception : ',e)
