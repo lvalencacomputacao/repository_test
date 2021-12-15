@@ -32,6 +32,8 @@ def takecommand():
         print('User Said : ' , query)
 
         print("Hello World")
+        print("Hello World")
+        print("Hello World")
 
     except Exception as e:
         print('exception : ',e)
