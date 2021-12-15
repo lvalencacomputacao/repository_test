@@ -34,7 +34,6 @@ def takecommand():
         print("teste")
         print("teste")
         print("teste")
-        print("teste")
 
     except Exception as e:
         print('exception : ',e)
